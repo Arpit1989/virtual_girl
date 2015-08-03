@@ -5,7 +5,7 @@ class Analyse
   @analysis
 
 
-  redis = Redis.new
+  #redis = Redis.new
 
   @array = ['do you know' ,'you know', "who's", 'who is', 'who are','who was']
 
