@@ -5110,3 +5110,1038 @@ Started GET "/?ques=what+is+yoga" for 127.0.0.1 at 2015-06-20 21:58:52 +0530
 Processing by ApplicationController#load_samantha as */*
   Parameters: {"ques"=>"what is yoga"}
 Completed 200 OK in 3329.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+gene" for 127.0.0.1 at 2015-06-22 01:52:25 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is gene"}
+Completed 200 OK in 1209.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+obama" for 127.0.0.1 at 2015-06-22 12:17:07 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is obama"}
+Completed 200 OK in 1585.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+website" for 127.0.0.1 at 2015-06-23 01:57:55 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is website"}
+Completed 200 OK in 1234.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+world+wide+web" for 127.0.0.1 at 2015-06-23 01:58:39 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is world wide web"}
+Completed 200 OK in 855.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+are+hyperlinks" for 127.0.0.1 at 2015-06-23 01:59:12 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what are hyperlinks"}
+Completed 200 OK in 1164.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=WHAT+IS+PROM" for 127.0.0.1 at 2015-06-24 00:20:16 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"WHAT IS PROM"}
+Completed 200 OK in 1157.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=where+is+Jupiter" for 127.0.0.1 at 2015-06-24 00:27:54 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"where is Jupiter"}
+Completed 200 OK in 1072.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+gyncology" for 127.0.0.1 at 2015-06-24 00:30:24 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 401.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+hormonal+imbalance" for 127.0.0.1 at 2015-06-24 00:30:41 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is hormonal imbalance"}
+Completed 200 OK in 368.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:32:59 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 359.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:33:12 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 347.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:33:16 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 414.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:33:28 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 376.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:33:33 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 354.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:33:55 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 1545.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:34:02 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 356.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:34:27 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 356.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:34:50 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 448.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:34:59 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 355.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:35:01 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 358.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:35:39 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 380.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:37:38 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 360.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:37:40 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 354.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:37:44 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 349.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:37:46 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 347.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:37:57 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 353.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:38:56 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 120003.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:40:59 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 361.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:41:11 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 386.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:41:12 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 425.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:41:56 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 499.3ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:41:58 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 494.0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:42:10 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed   in 26618.0ms
+
+
+Started GET "/?ques=what%20is%20gyncology" for 127.0.0.1 at 2015-06-24 00:42:42 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 509.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+gyncology" for 127.0.0.1 at 2015-06-24 00:42:57 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is gyncology"}
+Completed 200 OK in 412.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+Roadrash" for 127.0.0.1 at 2015-06-24 00:43:22 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is Roadrash"}
+Completed 200 OK in 543.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+music" for 127.0.0.1 at 2015-06-24 02:56:42 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is music"}
+Completed 200 OK in 1120.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+love" for 127.0.0.1 at 2015-06-24 03:19:38 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is love"}
+Completed 200 OK in 968.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+joke" for 127.0.0.1 at 2015-06-24 03:24:20 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is joke"}
+Completed 200 OK in 968.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+cricket" for 127.0.0.1 at 2015-06-24 03:28:42 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is cricket"}
+Completed 200 OK in 993.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+football" for 127.0.0.1 at 2015-06-24 03:29:47 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is football"}
+Completed 200 OK in 952.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+gold" for 127.0.0.1 at 2015-06-24 03:30:16 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is gold"}
+Completed 200 OK in 951.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+robot" for 127.0.0.1 at 2015-06-24 03:32:28 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is robot"}
+Completed 200 OK in 933.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+ghost" for 127.0.0.1 at 2015-06-24 03:33:16 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is ghost"}
+Completed 200 OK in 994.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+roster" for 127.0.0.1 at 2015-06-24 03:35:48 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is roster"}
+Completed 200 OK in 940.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+Ruby+on+rails" for 127.0.0.1 at 2015-06-24 11:21:15 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is Ruby on rails"}
+Completed 200 OK in 655.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=weather+of+Gurgaon" for 127.0.0.1 at 2015-06-24 11:21:44 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"weather of Gurgaon"}
+Completed 200 OK in 1255.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=evalute+23%2B34" for 127.0.0.1 at 2015-06-24 11:22:03 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"evalute 23+34"}
+Completed 200 OK in 1.0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+temperature" for 127.0.0.1 at 2015-06-24 11:25:57 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is temperature"}
+Completed 200 OK in 798.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=tell+me+about+disney" for 127.0.0.1 at 2015-06-24 11:26:30 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"tell me about disney"}
+Completed 200 OK in 1060.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=how+is+the+weather+in+New+Delhi" for 127.0.0.1 at 2015-06-24 11:31:15 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"how is the weather in New Delhi"}
+Completed 200 OK in 632.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+h2so4" for 127.0.0.1 at 2015-06-24 11:51:53 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is h2so4"}
+Completed 200 OK in 1200.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+ruby" for 127.0.0.1 at 2015-06-24 11:52:13 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is ruby"}
+Completed 200 OK in 1026.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+ruby+stone" for 127.0.0.1 at 2015-06-24 11:52:26 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is ruby stone"}
+Completed 200 OK in 326.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+GRE" for 127.0.0.1 at 2015-06-24 11:54:02 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is GRE"}
+Completed 200 OK in 1526.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+gre" for 127.0.0.1 at 2015-06-24 11:54:23 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is gre"}
+Completed 200 OK in 998.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=where+is+India" for 127.0.0.1 at 2015-06-25 15:31:49 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"where is India"}
+Completed 200 OK in 1052.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=weather+of+gurgaon" for 127.0.0.1 at 2015-06-25 15:32:54 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"weather of gurgaon"}
+Completed 200 OK in 386.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+ameliorate" for 127.0.0.1 at 2015-06-25 15:36:35 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is ameliorate"}
+Completed 200 OK in 621.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=hi" for 127.0.0.1 at 2015-06-25 17:20:58 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"hi"}
+Completed 500 Internal Server Error in 6.2ms
+
+LoadError (cannot load such file -- redis):
+  app/models/analyse.rb:1:in `<top (required)>'
+  app/models/samantha.rb:6:in `ask'
+  app/models/samantha.rb:11:in `talk'
+  app/models/samantha.rb:24:in `initialize'
+  app/controllers/application_controller.rb:4:in `new'
+  app/controllers/application_controller.rb:4:in `load_samantha'
+
+
+  Rendered /Users/arpitkulshrestha/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/arpitkulshrestha/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/arpitkulshrestha/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/?ques=hi" for 127.0.0.1 at 2015-06-25 17:23:31 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"hi"}
+Completed 200 OK in 8.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=hi" for 127.0.0.1 at 2015-06-25 17:55:20 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"hi"}
+Completed 200 OK in 0.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+critical+reasoning" for 127.0.0.1 at 2015-06-25 19:21:53 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is critical reasoning"}
+Completed 200 OK in 680.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+reading+comprehension" for 127.0.0.1 at 2015-06-25 19:23:27 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is reading comprehension"}
+Completed 200 OK in 509.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+reading" for 127.0.0.1 at 2015-06-25 19:24:07 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is reading"}
+Completed 200 OK in 1066.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+comprehension" for 127.0.0.1 at 2015-06-25 19:24:42 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is comprehension"}
+Completed 200 OK in 714.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+graduate+record+exam" for 127.0.0.1 at 2015-06-25 19:25:42 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is graduate record exam"}
+Completed 200 OK in 507.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+spanking" for 127.0.0.1 at 2015-06-25 19:26:09 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is spanking"}
+Completed 200 OK in 963.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+reconcile" for 127.0.0.1 at 2015-06-25 19:26:43 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is reconcile"}
+Completed 200 OK in 718.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+critical+reasoning+" for 127.0.0.1 at 2015-06-25 19:27:30 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is critical reasoning "}
+Completed 200 OK in 494.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+support" for 127.0.0.1 at 2015-06-26 14:33:15 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is support"}
+Completed 500 Internal Server Error in 9.4ms
+
+SyntaxError (/Users/arpitkulshrestha/virtual_girl/app/models/analyse.rb:229: syntax error, unexpected $end, expecting keyword_end):
+  app/models/samantha.rb:6:in `ask'
+  app/models/samantha.rb:11:in `talk'
+  app/models/samantha.rb:24:in `initialize'
+  app/controllers/application_controller.rb:4:in `new'
+  app/controllers/application_controller.rb:4:in `load_samantha'
+
+
+  Rendered /Users/arpitkulshrestha/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/arpitkulshrestha/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/arpitkulshrestha/.rvm/gems/ruby-1.9.3-p547/gems/actionpack-3.2.22/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/?ques=what+is+support" for 127.0.0.1 at 2015-06-26 14:33:56 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is support"}
+Completed 200 OK in 2089.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+critical+reasoning" for 127.0.0.1 at 2015-06-26 14:38:12 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is critical reasoning"}
+Completed 200 OK in 1580.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+h2so4" for 127.0.0.1 at 2015-06-26 14:38:52 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is h2so4"}
+Completed 200 OK in 452.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+sachin+" for 127.0.0.1 at 2015-06-26 14:39:25 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is sachin "}
+Completed 200 OK in 1838.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=weather+of+gurgaon" for 127.0.0.1 at 2015-06-26 14:42:26 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"weather of gurgaon"}
+Completed 200 OK in 430.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+northern+stars" for 127.0.0.1 at 2015-06-26 14:43:30 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is northern stars"}
+Completed 200 OK in 441.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+hydrocholric+acid+" for 127.0.0.1 at 2015-06-26 14:44:48 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is hydrocholric acid "}
+Completed 200 OK in 305.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+HCL" for 127.0.0.1 at 2015-06-26 14:44:55 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is HCL"}
+Completed 200 OK in 815.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who%20is%20sachin" for 127.0.0.1 at 2015-06-26 14:46:09 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"who is sachin"}
+Completed 200 OK in 984.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+binomial+theorem" for 127.0.0.1 at 2015-06-26 14:52:38 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is binomial theorem"}
+Completed 200 OK in 503.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+gene" for 127.0.0.1 at 2015-06-29 12:50:39 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is gene"}
+Completed 200 OK in 1115.5ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+sachin" for 127.0.0.1 at 2015-06-29 12:51:43 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is sachin"}
+Completed 200 OK in 1115.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Josh+Elman%3F" for 127.0.0.1 at 2015-06-29 12:52:17 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is Josh Elman?"}
+Completed 200 OK in 1089.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Eon+Musk" for 127.0.0.1 at 2015-06-29 12:52:45 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is Eon Musk"}
+Completed 200 OK in 415.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Elon+musk" for 127.0.0.1 at 2015-06-29 12:53:01 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is Elon musk"}
+Completed 200 OK in 573.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Paul+Graham%3F" for 127.0.0.1 at 2015-06-29 12:53:23 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is Paul Graham?"}
+Completed 200 OK in 757.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=tell+me+about+hooked" for 127.0.0.1 at 2015-06-29 13:16:58 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"tell me about hooked"}
+Completed 200 OK in 1336.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=tell+me+about+book+%22HOOKED%22" for 127.0.0.1 at 2015-06-29 13:17:22 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"tell me about book \"HOOKED\""}
+Completed 200 OK in 332.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=Nir+Eyal+Hooked" for 127.0.0.1 at 2015-06-29 13:17:50 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"Nir Eyal Hooked"}
+Completed 200 OK in 13.5ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Nir+Eyal+" for 127.0.0.1 at 2015-06-29 13:17:57 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is Nir Eyal "}
+Completed 200 OK in 307.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=tell+me+about+the+author+Nir+Eyal+and+his+book+Hooked" for 127.0.0.1 at 2015-06-29 13:18:12 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"tell me about the author Nir Eyal and his book Hooked"}
+Completed 200 OK in 336.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=+who+is+Dave+McClure" for 127.0.0.1 at 2015-06-29 13:47:17 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>" who is Dave McClure"}
+Completed 200 OK in 61117.9ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Dave+McClure" for 127.0.0.1 at 2015-06-29 14:28:03 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is Dave McClure"}
+Completed 200 OK in 1736.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Dave+McClure" for 127.0.0.1 at 2015-06-30 17:04:59 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is Dave McClure"}
+Completed 200 OK in 718.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+h2so4" for 127.0.0.1 at 2015-06-30 17:12:06 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is h2so4"}
+Completed 200 OK in 1477.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=weather+of+gurgaon" for 127.0.0.1 at 2015-06-30 17:13:25 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"weather of gurgaon"}
+Completed 200 OK in 545.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who%20is%20sachin" for 127.0.0.1 at 2015-06-30 17:16:00 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"who is sachin"}
+Completed 200 OK in 1022.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+sulhur" for 127.0.0.1 at 2015-06-30 18:33:03 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is sulhur"}
+Completed 200 OK in 535.4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+Sulphur" for 127.0.0.1 at 2015-06-30 18:33:13 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is Sulphur"}
+Completed 200 OK in 895.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+Cricket" for 127.0.0.1 at 2015-06-30 18:34:04 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is Cricket"}
+Completed 200 OK in 931.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+sachin" for 127.0.0.1 at 2015-06-30 23:09:26 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is sachin"}
+Completed 200 OK in 1274.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who%20is%20sachin" for 127.0.0.1 at 2015-07-06 17:10:44 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"who is sachin"}
+Completed 200 OK in 1464.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=what+is+chemistry" for 127.0.0.1 at 2015-07-06 17:13:17 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"what is chemistry"}
+Completed 200 OK in 812.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+sachin" for 127.0.0.1 at 2015-07-06 17:15:13 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is sachin"}
+Completed 200 OK in 3395.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=weather%20of%20Mumbai" for 127.0.0.1 at 2015-07-06 17:16:18 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"weather of Mumbai"}
+Completed 200 OK in 663.7ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who%20is%20Barack%20Obama" for 127.0.0.1 at 2015-07-06 17:16:49 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"who is Barack Obama"}
+Completed 200 OK in 1512.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Imran+Khan" for 127.0.0.1 at 2015-07-06 17:49:06 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is Imran Khan"}
+Completed 200 OK in 1603.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Imran+Khan" for 127.0.0.1 at 2015-07-06 17:49:14 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"who is Imran Khan"}
+Completed 200 OK in 1030.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who%20is%20Barack%20Obama" for 127.0.0.1 at 2015-07-06 17:50:29 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"who is Barack Obama"}
+Completed 200 OK in 1035.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Imran+Khan" for 127.0.0.1 at 2015-07-06 17:50:30 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"who is Imran Khan"}
+Completed 200 OK in 411.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who+is+Imran+Khan" for 127.0.0.1 at 2015-07-06 17:50:42 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"ques"=>"who is Imran Khan"}
+Completed 200 OK in 766.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1113037387396045960486_1436185433781&ques=who+is+Imran+Khan&_=1436185433782" for 127.0.0.1 at 2015-07-06 17:54:06 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1113037387396045960486_1436185433781", "ques"=>"who is Imran Khan", "_"=>"1436185433782"}
+Completed 200 OK in 847.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1113037387396045960486_1436185433781&ques=who+is+Sahin&_=1436185433783" for 127.0.0.1 at 2015-07-06 17:54:52 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1113037387396045960486_1436185433781", "ques"=>"who is Sahin", "_"=>"1436185433783"}
+Completed 200 OK in 785.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1113037387396045960486_1436185433781&ques=who+is+sachin&_=1436185433784" for 127.0.0.1 at 2015-07-06 17:55:10 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1113037387396045960486_1436185433781", "ques"=>"who is sachin", "_"=>"1436185433784"}
+Completed 200 OK in 1041.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1113036677808687090874_1436185705087&ques=who+is+sachin&_=1436185705088" for 127.0.0.1 at 2015-07-06 17:58:32 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1113036677808687090874_1436185705087", "ques"=>"who is sachin", "_"=>"1436185705088"}
+Completed 200 OK in 1035.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery111307403358037117869_1436186126735&ques=who+is+sachin&_=1436186126736" for 127.0.0.1 at 2015-07-06 18:05:34 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery111307403358037117869_1436186126735", "ques"=>"who is sachin", "_"=>"1436186126736"}
+Completed 200 OK in 1317.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery111307403358037117869_1436186126735&ques=who+is+sachin&_=1436186126736" for 127.0.0.1 at 2015-07-06 18:05:55 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"callback"=>"jQuery111307403358037117869_1436186126735", "ques"=>"who is sachin", "_"=>"1436186126736"}
+Completed 200 OK in 1034.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery111307403358037117869_1436186126735&ques=who+is+sachin&_=1436186126736" for 127.0.0.1 at 2015-07-06 20:24:39 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"callback"=>"jQuery111307403358037117869_1436186126735", "ques"=>"who is sachin", "_"=>"1436186126736"}
+Completed 200 OK in 1307.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1113001276858663186431_1436194655699&ques=who+is+sachin&_=1436194655700" for 127.0.0.1 at 2015-07-06 20:27:42 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1113001276858663186431_1436194655699", "ques"=>"who is sachin", "_"=>"1436194655700"}
+Completed 200 OK in 1063.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery111307323112860321999_1436194861000&ques=who+is+sachin&_=1436194861001" for 127.0.0.1 at 2015-07-06 20:31:07 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery111307323112860321999_1436194861000", "ques"=>"who is sachin", "_"=>"1436194861001"}
+Completed 200 OK in 1013.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1113037766044377349317_1436194938833&ques=who+is+sachin&_=1436194938834" for 127.0.0.1 at 2015-07-06 20:32:26 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1113037766044377349317_1436194938833", "ques"=>"who is sachin", "_"=>"1436194938834"}
+Completed 200 OK in 1061.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery11130597572622122243_1436194962774&ques=who+is+sachin&_=1436194962775" for 127.0.0.1 at 2015-07-06 20:32:51 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery11130597572622122243_1436194962774", "ques"=>"who is sachin", "_"=>"1436194962775"}
+Completed 200 OK in 1004.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110207822552667930722_1436201939115&ques=who+is+sachin&_=1436201939116" for 127.0.0.1 at 2015-07-06 22:29:37 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110207822552667930722_1436201939115", "ques"=>"who is sachin", "_"=>"1436201939116"}
+Completed 200 OK in 2116.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110207009766683913767_1436202097004&ques=who+is+sachin&_=1436202097005" for 127.0.0.1 at 2015-07-06 22:31:51 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110207009766683913767_1436202097004", "ques"=>"who is sachin", "_"=>"1436202097005"}
+Completed 200 OK in 2101.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110207009766683913767_1436202097004&ques=who+is+Imran+Khan&_=1436202097006" for 127.0.0.1 at 2015-07-06 22:32:29 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110207009766683913767_1436202097004", "ques"=>"who is Imran Khan", "_"=>"1436202097006"}
+Completed 200 OK in 10333.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1102037435472453944385_1436202191280&ques=who+is+sachin&_=1436202191281" for 127.0.0.1 at 2015-07-06 22:33:23 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1102037435472453944385_1436202191280", "ques"=>"who is sachin", "_"=>"1436202191281"}
+Completed 200 OK in 1312.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1102037435472453944385_1436202191280&ques=who+is+Elon+musk&_=1436202191282" for 127.0.0.1 at 2015-07-06 22:34:40 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1102037435472453944385_1436202191280", "ques"=>"who is Elon musk", "_"=>"1436202191282"}
+Completed 200 OK in 939.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110209832541500218213_1436202291284&ques=who+if+elon+musk&_=1436202291285" for 127.0.0.1 at 2015-07-06 22:35:08 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110209832541500218213_1436202291284", "ques"=>"who if elon musk", "_"=>"1436202291285"}
+Completed 200 OK in 3.2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110209832541500218213_1436202291284&ques=who+is+elon+musk&_=1436202291286" for 127.0.0.1 at 2015-07-06 22:35:23 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110209832541500218213_1436202291284", "ques"=>"who is elon musk", "_"=>"1436202291286"}
+Completed 200 OK in 2647.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110202979405024088919_1436202496188&ques=who+is+elon+musk&_=1436202496189" for 127.0.0.1 at 2015-07-06 22:38:32 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110202979405024088919_1436202496188", "ques"=>"who is elon musk", "_"=>"1436202496189"}
+Completed 200 OK in 744.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110202979405024088919_1436202496188&ques=who+is+ravan&_=1436202496190" for 127.0.0.1 at 2015-07-06 22:40:55 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110202979405024088919_1436202496188", "ques"=>"who is ravan", "_"=>"1436202496190"}
+Completed 200 OK in 21327.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110202979405024088919_1436202496188&ques=who+is+krishna&_=1436202496191" for 127.0.0.1 at 2015-07-06 22:42:31 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110202979405024088919_1436202496188", "ques"=>"who is krishna", "_"=>"1436202496191"}
+Completed 200 OK in 3892.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1102027702579321339726_1436202876142&ques=who+is+shiva&_=1436202876143" for 127.0.0.1 at 2015-07-06 22:44:49 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1102027702579321339726_1436202876142", "ques"=>"who is shiva", "_"=>"1436202876143"}
+Completed 200 OK in 1126.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery1102020950792799703777_1436202931011&ques=who+is+shiva&_=1436202931012" for 127.0.0.1 at 2015-07-06 22:45:43 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery1102020950792799703777_1436202931011", "ques"=>"who is shiva", "_"=>"1436202931012"}
+Completed 200 OK in 1044.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110201840654311235994_1436203012316&ques=who+is+naryan&_=1436203012317" for 127.0.0.1 at 2015-07-06 22:47:06 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110201840654311235994_1436203012316", "ques"=>"who is naryan", "_"=>"1436203012317"}
+Completed 200 OK in 4257.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110201840654311235994_1436203012316&ques=who+is+robin+hood&_=1436203012318" for 127.0.0.1 at 2015-07-07 11:39:05 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110201840654311235994_1436203012316", "ques"=>"who is robin hood", "_"=>"1436203012318"}
+Completed 200 OK in 1633.1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110201840654311235994_1436203012316&ques=who+is+Virat+Kohli&_=1436203012319" for 127.0.0.1 at 2015-07-07 18:31:53 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110201840654311235994_1436203012316", "ques"=>"who is Virat Kohli", "_"=>"1436203012319"}
+Completed 200 OK in 862.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110201840654311235994_1436203012316&ques=what+is+the+depth+of+indian+ocean&_=1436203012320" for 127.0.0.1 at 2015-07-07 18:34:49 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110201840654311235994_1436203012316", "ques"=>"what is the depth of indian ocean", "_"=>"1436203012320"}
+Completed 200 OK in 334.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 172.28.228.65 at 2015-07-07 18:36:27 +0530
+Processing by ApplicationController#load_samantha as HTML
+Completed 200 OK in 0.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?ques=who%20is%20sachin" for 172.28.228.65 at 2015-07-07 18:36:47 +0530
+Processing by ApplicationController#load_samantha as HTML
+  Parameters: {"ques"=>"who is sachin"}
+Completed 200 OK in 1748.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110201840654311235994_1436203012316&ques=who+is+sachin&_=1436203012321" for 127.0.0.1 at 2015-07-07 18:38:07 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110201840654311235994_1436203012316", "ques"=>"who is sachin", "_"=>"1436203012321"}
+Completed 200 OK in 1482.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110203976808562874794_1436367742708&ques=who+is+putin&_=1436367742709" for 127.0.0.1 at 2015-07-08 20:32:34 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110203976808562874794_1436367742708", "ques"=>"who is putin", "_"=>"1436367742709"}
+Completed 200 OK in 9384.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery11020917145993327722_1436477142091&ques=who+is++virat+kohli&_=1436477142092" for 127.0.0.1 at 2015-07-10 02:55:58 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery11020917145993327722_1436477142091", "ques"=>"who is  virat kohli", "_"=>"1436477142092"}
+Completed 200 OK in 1672.0ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery11020917145993327722_1436477142091&ques=what+is+newtons+law&_=1436477142093" for 127.0.0.1 at 2015-07-10 02:56:57 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery11020917145993327722_1436477142091", "ques"=>"what is newtons law", "_"=>"1436477142093"}
+Completed 200 OK in 586.8ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery11020917145993327722_1436477142091&ques=weather+of+gurgaon&_=1436477142094" for 127.0.0.1 at 2015-07-10 03:01:06 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery11020917145993327722_1436477142091", "ques"=>"weather of gurgaon", "_"=>"1436477142094"}
+Completed 200 OK in 533.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery11020917145993327722_1436477142091&ques=weather+of+kasauli&_=1436477142095" for 127.0.0.1 at 2015-07-10 03:01:56 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery11020917145993327722_1436477142091", "ques"=>"weather of kasauli", "_"=>"1436477142095"}
+Completed 200 OK in 437.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery11020015096717048436403_1437556752308&ques=who+is+virat+kohli&_=1437556752309" for 127.0.0.1 at 2015-07-22 14:49:25 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery11020015096717048436403_1437556752308", "ques"=>"who is virat kohli", "_"=>"1437556752309"}
+Completed 200 OK in 1641.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jQuery110208192001595161855_1438631024938&ques=who+is+Virat+kohli&_=1438631024939" for 127.0.0.1 at 2015-08-04 01:13:54 +0530
+Connecting to database specified by database.yml
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jQuery110208192001595161855_1438631024938", "ques"=>"who is Virat kohli", "_"=>"1438631024939"}
+Completed 200 OK in 766.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=who+is+sachin&_=1438633284780" for 127.0.0.1 at 2015-08-04 01:51:34 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"who is sachin", "_"=>"1438633284780"}
+Completed 200 OK in 1339.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=who+is+sachin&_=1438633444279" for 127.0.0.1 at 2015-08-04 01:54:19 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"who is sachin", "_"=>"1438633444279"}
+Completed 200 OK in 1854.9ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=who+is+Narendra+Modi&_=1438633500229" for 127.0.0.1 at 2015-08-04 01:55:23 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"who is Narendra Modi", "_"=>"1438633500229"}
+Completed 200 OK in 368.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=who+is+Lex+Luthor+&_=1438634045952" for 127.0.0.1 at 2015-08-04 02:04:12 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"who is Lex Luthor ", "_"=>"1438634045952"}
+Completed 200 OK in 1937.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=who+is+Lex+Luther+&_=1438634045953" for 127.0.0.1 at 2015-08-04 02:04:32 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"who is Lex Luther ", "_"=>"1438634045953"}
+Completed 200 OK in 657.5ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=who+is+Lex+&_=1438634045954" for 127.0.0.1 at 2015-08-04 02:04:39 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"who is Lex ", "_"=>"1438634045954"}
+Completed 200 OK in 1977.7ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=who+is+Spider+Man&_=1438634045955" for 127.0.0.1 at 2015-08-04 02:04:48 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"who is Spider Man", "_"=>"1438634045955"}
+Completed 200 OK in 1990.0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=where+is+panama+canal&_=1438634022118" for 127.0.0.1 at 2015-08-04 02:05:21 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"where is panama canal", "_"=>"1438634022118"}
+Completed 200 OK in 1619.4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=what+is+time+dilation&_=1438634022119" for 127.0.0.1 at 2015-08-04 02:06:05 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"what is time dilation", "_"=>"1438634022119"}
+Completed 200 OK in 1204.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=jasmine+you+are+beautiful&_=1438634022120" for 127.0.0.1 at 2015-08-04 02:07:34 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"jasmine you are beautiful", "_"=>"1438634022120"}
+Completed 200 OK in 8.8ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=jasmine+you+are+ugly&_=1438634022121" for 127.0.0.1 at 2015-08-04 02:08:52 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"jasmine you are ugly", "_"=>"1438634022121"}
+Completed 200 OK in 16.3ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=jasmine+you+are+ugly&_=1438634342935" for 127.0.0.1 at 2015-08-04 02:09:21 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"jasmine you are ugly", "_"=>"1438634342935"}
+Completed 200 OK in 0.9ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=jasmine+you+are+beautiful&_=1438634342936" for 127.0.0.1 at 2015-08-04 02:09:53 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"jasmine you are beautiful", "_"=>"1438634342936"}
+Completed 200 OK in 0.9ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=jasmine+you+are+ugly&_=1438634342937" for 127.0.0.1 at 2015-08-04 02:14:18 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"jasmine you are ugly", "_"=>"1438634342937"}
+Completed 200 OK in 1.6ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=jasmine+you+are+beautiful&_=1438634663887" for 127.0.0.1 at 2015-08-04 02:14:40 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"jasmine you are beautiful", "_"=>"1438634663887"}
+Completed 200 OK in 1.2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?callback=jsonCallback&ques=jasmine+you+are+beautiful&_=1438634792040" for 127.0.0.1 at 2015-08-04 02:16:48 +0530
+Processing by ApplicationController#load_samantha as */*
+  Parameters: {"callback"=>"jsonCallback", "ques"=>"jasmine you are beautiful", "_"=>"1438634792040"}
+Completed 200 OK in 1.1ms (Views: 0.1ms | ActiveRecord: 0.0ms)

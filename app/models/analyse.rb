@@ -1,7 +1,11 @@
+require "redis"
 class Analyse
   @type
   @known
   @analysis
+
+
+  redis = Redis.new
 
   @array = ['do you know' ,'you know', "who's", 'who is', 'who are','who was']
 
@@ -34,6 +38,7 @@ class Analyse
       end
     end
     @analysis = prepare_response question,@type
+
     if @known
       @analysis
     else
@@ -68,6 +73,7 @@ class Analyse
   def prepare_response question,type
     if @@refer_person.include?(type.strip) || @@history_related.include?(type.strip) || @@refer_place.include?(type.strip) || @@refer_defination.include?(type.strip)
       search_dbpedia question,type
+      #in_mem = redis.gets(question)
     elsif @@root_word.include?(type.strip)
       return {stem:"#{question} is #{question.gsub(type,"").strip}".stem}
     elsif @@ask_for_weather.include?(type.strip)
