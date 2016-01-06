@@ -7,7 +7,7 @@ class ApplicationController < ActionController::API
       end
       render json: response.to_json,:callback => params[:callback]
     rescue
-      render json: { say: {answer:"error"} },:callback => params[:callback]
+      render json: { say: {answer:"oops , something went wrong!"} },:callback => params[:callback]
     end
   end
 end

@@ -83,7 +83,7 @@ class Analyse
       ip_address = current_ip_address if city.nil?
       city = current_city ip_address.strip if city.nil?
 
-      uri = URI("http://api.openweathermap.org/data/2.5/weather?q=#{URI::encode(city)}")
+      uri = URI("http://api.openweathermap.org/data/2.5/weather?q=#{URI::encode(city)},&appid=1a16ec46593f12110eaa4a4a6244d6d8")
       res = JSON.parse(Net::HTTP.get(uri))
       weather_desc = res["weather"].first["description"]
       max_temp = res["main"]["temp_max"].to_i - 273
