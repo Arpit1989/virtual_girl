@@ -53,6 +53,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    puma (3.6.0)
     rack (1.4.6)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -103,6 +104,7 @@ DEPENDENCIES
   dbpedia
   geocoder
   pry
+  puma
   rails (= 3.2.22)
   rails-api
   redis

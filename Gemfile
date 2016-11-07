@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby "1.9.3"
 gem 'rails', '3.2.22'
 
 # Bundle edge Rails instead:
@@ -10,6 +10,8 @@ gem 'geocoder'
 gem 'dbpedia'
 gem 'rails-api'
 gem 'redis'
+
+gem 'puma'
 
 gem 'pry' ,:group => "development"
 
