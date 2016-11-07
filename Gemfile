@@ -10,7 +10,6 @@ gem 'geocoder'
 gem 'dbpedia'
 gem 'rails-api'
 gem 'redis'
-gem 'sqlite3'
 
 gem 'pry' ,:group => "development"
 

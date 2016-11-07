@@ -51,11 +51,16 @@ class Analyse
   end
 
   def search_dbpedia question,type
-    results = Dbpedia.search("#{question.gsub(type,"").strip}",{:max_hits => 15})
+    results = Dbpedia.search("#{question.gsub(type,"").strip}",{:max_hits => 500})
     labels = results.collect(&:label)
     description = results.collect(&:description)
-    classes = results.collect(&:categories).map{|a| a.collect(&:label)}
-    all_items = labels.collect {|l| [l,description[labels.index(l)]]}
+    if results.collect(&:label).map! {|m| m.downcase}.include?(question.gsub(type,"").strip)
+      index = results.collect(&:label).map! {|m| m.downcase}.find_index(question.gsub(type,"").strip)
+      all_items = [labels[index],description[index]]
+    else
+      classes = results.collect(&:categories).map{|a| a.collect(&:label)}
+      all_items = labels.collect {|l| [l,description[labels.index(l)]]}
+    end
     all_items = Hash[*all_items.flatten]
     return all_items
   end
